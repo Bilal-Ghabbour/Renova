@@ -1,4 +1,3 @@
-import logo from "../assets/Images/Logo.png";
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
                 className="block transition-transform duration-300 hover:scale-110"
               >
                 <img
-                  src={logo}
+                  src="/assets/Logo.png"
                   alt="Logo"
                   className="w-10 h-10 rounded-2xl object-contain"
                 />

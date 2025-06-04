@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/Images/Logo.png";
 import { FaUser, FaSignOutAlt } from "react-icons/fa";
+
+
 
 function Header() {
   const [user, setUser] = useState(null);
@@ -105,7 +106,7 @@ function Header() {
       {/* Logo & Name */}
       <div className="flex items-center gap-4 w-full sm:w-auto">
         <img
-          src={logo}
+          src="/assets/Logo.png"
           alt="Logo"
           className="w-20 h-20 rounded-3xl object-contain transition-transform duration-300 hover:scale-110"
         />

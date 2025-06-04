@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const images = [
-  "src/assets/Images/photo5.png",
-  "src/assets/Images/photo4.png",
-  "src/assets/Images/photo1.png",
-  "src/assets/Images/photo2.png",
-  "src/assets/Images/photo3.png",
+  "/assets/photo5.png",
+  "/assets/photo4.png",
+  "/assets/photo1.png",
+  "/assets/photo2.png",
+  "/assets/photo3.png",
 ];
 
 const ImageFix = () => {
